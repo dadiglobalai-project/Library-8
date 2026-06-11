@@ -1,0 +1,26 @@
+Upload all files and folders in this package to the root of your GitHub repository.
+
+Required structure:
+
+index.html
+package.json
+vite.config.js
+vercel.json
+README.md
+UPLOAD_INSTRUCTIONS.txt
+.env.example
+api/
+public/
+src/
+supabase/
+docs/
+
+After upload:
+1. Commit changes.
+2. Add Vercel Environment Variables.
+3. Redeploy.
+4. Open /api/health to test backend connection.
+5. Use Admin Access page to seed the prompt database.
+
+Commit message suggestion:
+Add Supabase backend access for Dadi Prompt Library
